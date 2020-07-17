@@ -1,0 +1,40 @@
+ul#sarapan li{
+	color: green;
+}
+
+ul#sarapan li.favorit{
+	color: red;
+}
+
+
+/*
+menghitung nilai spesifik 					RUMUS =  INLINE	   ID 		CLASS 		ELEMENT
+													   0	    0		  0 		   0
+	
+	ul#sarapan li
+	0	1	0	2
+inline 	= 0
+id 		= 1 (#sarapan)
+class 	= 0 (tidak ada class)
+elemant = 2 (li, ul)
+
+	.favorit
+	0	0	1	2
+inline 	= 0 (tidak ada)
+id 		= 0 (tidak ada)
+class 	= 1 (.favorit)
+element = 0 (tidak ada)
+
+ul#sarapan li.favorit
+	0	1	1	2
+inline 	= 0 (tidak ada)
+id 		= 1 (#sarapan)
+class 	= 1 (.favorit)
+element = 2 (li, ul)
+
+
+
+website menghitung nilai spesifik
+http://specificity.keegan.st
+
+*/
